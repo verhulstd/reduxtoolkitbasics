@@ -1,6 +1,7 @@
 import "./style.scss";
 
 import store from "./data";
+import Counter from "./components/Counter";
 
 function renderTodos() {
   const { todos } = store.getState();
@@ -19,3 +20,5 @@ function renderTodos() {
 }
 
 renderTodos();
+
+new Counter(document.querySelector("#counter"));
