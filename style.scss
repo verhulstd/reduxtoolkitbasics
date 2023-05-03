@@ -7,3 +7,27 @@ ul li {
     margin-left: 15px;
   }
 }
+
+table img {
+  max-width: 120px;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+main {
+  display: grid;
+  max-width: 1600px;
+  grid-template-columns: repeat(2, 1fr);
+}
+sup {
+  font-size: x-small;
+  top: 5px;
+}
+a b,
+a em,
+a i,
+a strong,
+button,
+input[type="submit"] {
+  padding: 0.5rem 1rem;
+}
